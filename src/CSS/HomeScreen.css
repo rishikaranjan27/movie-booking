@@ -1,0 +1,35 @@
+.homeScreen {
+    padding: 5%;
+    background-color: #080D2A;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-title {
+    color: #C1C5D9;
+    font-weight: 500;
+    font-size: large;
+    margin: 2vh 2vw;
+
+}
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (min-width: 700px) { 
+
+    .home {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+ 
+    
+}

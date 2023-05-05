@@ -1,0 +1,147 @@
+.bookingScreen {
+    background-color: #080D2A;
+    color: #C1C5D9;
+    height: 100vh;
+    padding: 5%;
+    overflow: hidden;
+}
+
+
+.bookingScreen-header {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: large;
+    margin-bottom: 2vh;
+    cursor: pointer;
+
+}
+
+
+.bookingScreen-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.seat-count {
+    display: flex;
+    margin: 2vh 0;
+    justify-content: space-between;
+}
+
+
+.seat-count > button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #151c46;
+    height: 40px;
+    width: 40px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    color: #C1C5D9;
+    cursor: pointer;
+}
+
+
+.bookingScreen-btn {
+    display: block;
+    visibility: visible;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-color: #4F6CDA;
+    color: #C1C5D9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.bookingScreen-btn:hover {
+    background-color: #344996;
+
+}
+
+.bookingScreen-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+
+.bookingScreen-bottom-left {
+    flex: 0.4;
+}
+
+.bookingScreen-bottom-right {
+    flex: 0.6;
+    align-items: flex-end;
+}
+
+.price {
+    color: #A67C59;
+}
+
+.bookingScreen-flex {
+    display: flex;
+    margin-bottom: 2vh;
+}
+
+.bookingScreen-left {
+    flex: 0.3;
+    width: 30vh;
+}
+
+.bookingScreen-right {
+    flex: 0.7;
+    width: 70vh;
+    font-weight: 400;
+    font-size: large;
+}
+
+.bookingScreen-img {
+    max-height: 100px;
+
+}
+
+.bookingScreen-title {
+    font-size: x-large;
+}
+
+
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (min-width: 700px) { 
+
+
+    .bookingScreen-img {
+        max-height: 30vh;
+    
+    }
+
+
+    .seat-count {
+        justify-content:start;
+    }
+
+
+    .bookingScreen-bottom-left {
+        flex: 0.1;
+    }
+    
+    .bookingScreen-bottom-right {
+        flex: 0.9;
+    }
+    
+
+ 
+
+
+}

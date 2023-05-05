@@ -1,0 +1,191 @@
+.movieCard {
+    display: flex;
+    margin-bottom: 2vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(226, 226, 226, 0.12);
+    color: #C1C5D9;
+    width: 95%;
+    height: 30vh;
+    
+}
+
+.movieCard-left {
+    flex: 0.4;
+}
+
+
+.movieCard-right {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2vh 2vw;
+
+}
+
+
+.home-img {
+    height: 20vh;
+    border-radius: 10px;
+    margin: 2.5vh 2vw;
+}
+
+
+.movieCard-noImg {
+    height: 20vh;
+    margin: 2.5vh 2vw;
+    border-radius: 10px;
+    background-color: black;
+    width: 25vw;
+    text-align: center;
+}
+
+
+.movieCard-genres {
+    display: flex;
+}
+
+
+.movieCard-title {
+    font-weight: 600;
+    font-size: x-large;
+}
+
+
+
+.movieCard-rating {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.movieCard-genres-text {
+    display: flex;
+}
+
+
+.star-icon {
+    color: #917539;
+    margin-right: 1vw;
+}
+
+
+
+.movieCard-noRating {
+    height: 20px;
+}
+
+
+
+.movieCard-btn {
+    display: block;
+    visibility: visible;
+    margin: auto;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: #4F6CDA;
+    color: #C1C5D9;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (min-width: 1000px) { 
+
+    .movieCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 70vh;
+        margin: 2vh 1vw;
+    }
+
+    .movieCard:hover {
+        box-shadow: 0 4px 7px rgba(226, 226, 226, 0.20);
+
+    }
+
+
+
+    .home-img {
+        height: 35vh;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .movieCard-noImg {
+        height: 35vh;
+        width: 13vw;
+    }
+
+
+    .movieCard-noRating {
+        height: 30px;
+    }
+
+
+
+    .movieCard-btn:hover {
+        background-color: #344996;
+
+    }
+
+
+}
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) { 
+
+    .movieCard {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 60vh;
+        margin: 2vh 1vw;
+    }
+
+    .movieCard:hover {
+        box-shadow: 0 4px 7px rgba(226, 226, 226, 0.20);
+
+    }
+
+
+
+    .home-img {
+        height: 30vh;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .movieCard-noImg {
+        height: 30vh;
+        width: 30vw;
+    }
+
+
+    .movieCard-noRating {
+        height: 30px;
+    }
+
+
+
+    .movieCard-btn:hover {
+        background-color: #344996;
+
+    }
+
+
+}

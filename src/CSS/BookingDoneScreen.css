@@ -1,0 +1,15 @@
+.bookingDoneScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #C1C5D9;
+    background-image: linear-gradient(to bottom right, #080D2A, #0c1443);
+}
+
+
+
+.done-icon {
+    color: #917539;
+}

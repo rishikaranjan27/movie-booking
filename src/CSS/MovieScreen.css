@@ -1,0 +1,160 @@
+.movieScreen {
+    background-color: #080D2A;
+    padding: 3vh 5vw;
+    color: #C1C5D9;
+    min-height: 100vh;
+}
+
+.movieScreen-header {
+    display: flex;
+    cursor: pointer;
+}
+
+
+.movieScreen-image {
+    display: flex;
+    justify-content: center;
+}
+
+
+.movieScreen-img {
+    max-height: 50vh;
+    margin: 3vh 0;
+    border-radius: 20px;
+    box-shadow: 0 8px 10px rgba(226, 226, 226, 0.30);
+}
+
+
+.movieScreen-rating {
+    display: flex;
+    margin: 1vh 0;
+}
+
+
+.movieScreen-genres {
+    display: flex;
+    margin: 1vh 0;
+
+}
+
+.movieScreen-genre {
+    padding: 7px 20px;
+    border: 1px solid #C1C5D9;
+    border-radius: 20px;
+    background-color: #151c46;
+    margin-right: 10px;
+
+}
+
+
+
+.movieScreen-title {
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 2vh 0;
+}
+
+.movieScreen-summary {
+    font-weight: 600;
+    font-size: large;
+    margin: 2vh 0;
+
+}
+
+.movieScreen-language {
+    margin: 2vh 0;
+
+}
+
+
+.movieScreen-btn {
+    display: block;
+    visibility: visible;
+    padding: 15px 25px;
+    border-radius: 20px;
+    background-color: #4F6CDA;
+    color: #C1C5D9;
+    border: none;
+    outline: none;
+    position: fixed;
+    bottom: 5vh;
+    left: 50%;
+    width: 150px;
+    margin-left: -75px;
+    cursor: pointer;
+}
+
+
+
+
+
+.movieScreen-btn:hover {
+    background-color: #344996;
+
+}
+
+.movieScreen-summary-text {
+    padding-bottom: 15vh;
+}
+
+
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (min-width: 1000px) { 
+
+    .movieScreen-flex {
+        display: flex;
+    }
+
+    .movieScreen-left {
+        flex: 0.4;
+    }
+
+    .movieScreen-right {
+        flex: 0.6;
+    }
+
+
+    .movieScreen-img {
+        max-height: 50vh;
+
+    }
+
+    .movieScreen-btn {
+        left: 70%;
+        width: 150px;
+        margin-left: -105px;
+    }
+
+ 
+    
+}
+
+
+
+/* -------------Media Queries-------------- */
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+    
+    .movieScreen-flex {
+        display: flex;
+    }
+
+    .movieScreen-left {
+        flex: 0.4;
+    }
+
+    .movieScreen-right {
+        flex: 0.6;
+    }
+
+    .movieScreen-img {
+        max-height: 25vh;
+
+    }
+
+   
+}
